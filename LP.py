@@ -105,7 +105,7 @@ def solve(a, b, c, equal=None):
         return None, None, None
 if __name__ == '__main__':
     equal = None
-	# 不带等式约束的线性规划测试
+    # 不带等式约束的线性规划测试
     # a = np.array([[4, -1], [2, 1], [-5, 2]])
     # b = [8, 10, 2]
     # c = [-1, -1]
@@ -127,7 +127,7 @@ if __name__ == '__main__':
     # a = np.array([[2, -1], [1, -5]])
     # b = [2, -4]
     # c = [-2, 1]
-	# 带等式约束的线性规划测试
+    # 带等式约束的线性规划测试
     # a = np.array([[1, -2]])
     # equal = [1, 1] + [0] * a.shape[0]
     # b = [7, 4]
